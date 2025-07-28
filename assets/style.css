@@ -33,3 +33,24 @@ body {
 .logo span {
     color: #f56a0f;
 }
+
+/* Header */
+header .container{
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    gap: 50px;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav .leftside {
+    list-style: none;
+    display: flex;
+    flex: 1;
+}
