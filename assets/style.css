@@ -162,9 +162,13 @@ header .menu-icon div{
     font-size: 32px;
     font-weight: 500;
     text-align: start;
+    width: 100%;
+
 }
 .search .sides{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 30px;
     gap: 100px;
 }
@@ -174,7 +178,7 @@ header .menu-icon div{
 }
 .search input,
 .search select{
-    width: 100%;
+    width: 94%;
     background-color: #2b2b2b;
     color: #fff;
     font-size: 24px;
@@ -227,6 +231,9 @@ header .menu-icon div{
     .search {
         padding-bottom: 30px;
 
+    }
+    .search .title {
+        text-align: center;
     }
     .search .sides{
         flex-direction: column;
